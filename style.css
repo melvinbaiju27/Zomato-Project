@@ -37,7 +37,7 @@ body {
     font-weight: 600;
 }
 
-.nav__item:hover {
+.button__primary:hover {
     border: 2px solid #FF6767;
     cursor: pointer;
 }
@@ -102,6 +102,28 @@ body {
     padding-bottom: 10px;
 }
 
+.restaurants__menu__text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+    color #1D3557; 
+}
+
+.restaurant__card {
+    background-color: #F9F9F9;
+}
+
+.restaurant__card__image__container {
+    width: 100%;
+}
+
+.restaurant__image {
+    width: 100%;
+}
+
 @media (min-width: 786px) {
     .navbar {
         justify-content: space-between;
@@ -146,6 +168,22 @@ body {
         margin-top: -15px;
         margin-bottom: 15px;
     }
+
+    .restaurants__menu__container {
+        position: relative;
+        background-color: #F9F9F9;
+    }
+
+    .restaurant__menu__lists {
+        display: flex;
+        gap: 15px;
+        padding: 0 30px;
+        margin-top: 40px;
+    }
+
+    #rest__card {
+        margin-top: 80px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -177,6 +215,16 @@ body {
     }
 
     .explore__menu__text {
+        font-size: 48px;
+    }
+
+    .restaurants__menu__lists {
+        display: flex;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .restaurants__menu__text {
         font-size: 48px;
     }
 
