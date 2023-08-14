@@ -124,6 +124,10 @@ body {
     width: 100%;
 }
 
+#rest__card img{
+    margin-top: 40px;
+}
+
 @media (min-width: 786px) {
     .navbar {
         justify-content: space-between;
@@ -172,17 +176,23 @@ body {
     .restaurants__menu__container {
         position: relative;
         background-color: #F9F9F9;
+        bottom: 20px;
     }
 
     .restaurant__menu__lists {
         display: flex;
         gap: 15px;
         padding: 0 30px;
-        margin-top: 40px;
+        margin-top: 10px;
+        padding-bottom: 5px;
     }
 
     #rest__card {
-        margin-top: 80px;
+        margin-top: 50px;
+    }
+
+    #rest__card1 {
+        margin-top: 10px;
     }
 }
 
@@ -221,7 +231,7 @@ body {
     .restaurants__menu__lists {
         display: flex;
         gap: 25px;
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     .restaurants__menu__text {
