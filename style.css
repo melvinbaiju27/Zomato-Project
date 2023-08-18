@@ -90,7 +90,7 @@ body {
     font-size: 30px;
     font-weight: 300;
     margin: 20px 0;
-    color #1D3557; 
+    color: #1D3557; 
 }
 
 #p__text {
@@ -109,11 +109,12 @@ body {
     font-size: 30px;
     font-weight: 300;
     margin: 20px 0;
-    color #1D3557; 
+    color: #1D3557; 
 }
 
 .restaurant__card {
     background-color: #F9F9F9;
+    margin-bottom: 15px;
 }
 
 .restaurant__card__image__container {
